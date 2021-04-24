@@ -89,7 +89,7 @@ var SliderStatus = true;
 		        setTimeout(function(){
 		        	loaderSVG.hide();
 		        	SliderInterval();
-		        }, 2000);
+		        }, 300);//açılıştaki beyaz sayfanın ilk değeri 2000di
 
 		        activeSlide.css("background-image", "url('" + activeImg + "')");
 			
